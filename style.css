@@ -16,6 +16,10 @@ body{
     padding: 20px;
     text-align: center;
 }
+#form{
+    display: none;
+    text-align: center;
+}
 h1{
     text-align: center;
     margin-top: 50px;
@@ -28,10 +32,9 @@ img{
 p{
     width: 350px;
     margin: 0 auto;
+    text-align: center;
 }
 button{
-    justify-content: center;
-    align-items: center;
     border: 0;
     border-radius: 5px;
     margin-top: 50px;
