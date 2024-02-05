@@ -28,6 +28,7 @@ h1{
 img{
     width: 70px;
     margin: 30px auto;
+    border-radius: 45%;
 }
 p{
     width: 350px;
