@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
-    <div>
+    <div id="main">
         <h1>Онлайн Магазин</h1>
         <center><img src="https://сибтекстиль.рф/wp-content/uploads/brezent.jpg"></center>
         <p>Это наш официальный магазин</p>
@@ -29,11 +29,11 @@
         buy.addEventListener("click", () => {
             document.getElementById("main").style.display = "none";
             document.getElementById("form").style.display = "block";
-            document.getElementById("user_name").value = tg.initDataUnsafe.first_name;
-        })
+            document.getElementById("user_name").value = tg.initDataUnsafe.first_name
+        });
         order.addEventListener("click", () =>{
             tg.close();
-        })
+        });
     </script>
 </body>
 </html>
