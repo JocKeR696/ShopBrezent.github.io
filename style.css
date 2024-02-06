@@ -34,7 +34,7 @@ h1{
     margin-top: 50px;
     margin-bottom: 10px;
 }
-img{
+.tileimg{
     width: 70px;
     height: 70px;
     margin: 30px auto;
@@ -62,4 +62,22 @@ button:hover{
     background: var(--tg-theme-secondary-bg-color);
     justify-content: center;
     align-items: center;
+}
+ul{
+    list-style-type: none;
+}
+.har{
+    display: flex;
+}
+.right_har{
+    float: right;
+}
+h3{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.imgtov1{
+    border-radius: 15%;
 }
